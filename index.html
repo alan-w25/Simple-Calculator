@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <script src="calc.js" defer></script>
 </head>
@@ -18,31 +19,32 @@
             </div>
         </div>
         
-        <button data-ac>AC</button>
-        <button data-del>DEL</button>
-        <button data-operation>%</button>
-        <button data-operation>÷</button>
+        <button data-ac type = "button" class = "btn btn-default" >AC</button>
+        <button data-del type = "button" class = "btn btn-default">DEL</button>
+        <button data-operation type = "button" class = "btn btn-warning">%</button>
+        <button data-operation type = "button" class = "btn btn-warning">÷</button>
 
-        <button data-number>7</button>
-        <button data-number>8</button>
-        <button data-number>9</button>
-        <button data-operation>*</button>
+        <button data-number type = "button" class = "btn btn-default">7</button>
+        <button data-number type = "button" class = "btn btn-default">8</button>
+        <button data-number type = "button" class = "btn btn-default">9</button>
+        <button data-operation type = "button" class = "btn btn-warning">*</button>
 
-        <button data-number>4</button>
-        <button data-number>5</button>
-        <button data-number>6</button>
-        <button data-operation>-</button>
+        <button type = "button" class = "btn btn-default" data-number>4</button>
+        <button data-number type = "button" class = "btn btn-default">5</button>
+        <button data-number type = "button" class = "btn btn-default">6</button>
+        <button data-operation type = "button" class = "btn btn-warning">-</button>
     
-        <button data-number>1</button>
-        <button data-number>2</button>
-        <button data-number>3</button>
-        <button data-operation>+</button>
+        <button data-number type = "button" class = "btn btn-default">1</button>
+        <button data-number type = "button" class = "btn btn-default">2</button>
+        <button data-number type = "button" class = "btn btn-default">3</button>
+        <button data-operation type = "button" class = "btn btn-warning">+</button>
 
-        <button data-number class = "two-wide" >0</button>
-        <button data-number>.</button>
-        <button data-equals>=</button>
+        <button data-number type = "button" class = "btn btn-primary">bruh</button>
+        <button data-number type = "button" class = "btn btn-default" >0</button>
+        <button data-number type = "button" class = "btn btn-warning">.</button>
+        <button data-equals type = "button" class = "btn btn-warning">=</button>
 
 
-    </div>
+        </div>
 </body>
 </html>
